@@ -1,0 +1,23 @@
+
+xmonad.hs:13:1: warning: [-Wtabs]
+    Tab character found here, and in 25 further locations.
+    Please use spaces instead.
+   |
+13 |         xmproc <- spawnPipe "xmobar"
+   | ^^^^^^^^
+
+xmonad.hs:15:24: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+15 |         xmonad $ docks defaultConfig
+   |                        ^^^^^^^^^^^^^
+
+xmonad.hs:16:57: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+16 |                 { layoutHook = avoidStruts $ layoutHook defaultConfig
+   |                                                         ^^^^^^^^^^^^^
